@@ -1,0 +1,26 @@
+{
+  "name": "js-puppetter-scraper",
+  "version": "1.0.0",
+  "description": "A website scraper built using puppeter",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "currency.js": "^2.0.0",
+    "puppeteer": "^1.20.0",
+    "ramda": "^0.27.0",
+    "xmldom": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "mocha": "^5.2.0"
+  }
+}
